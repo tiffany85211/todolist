@@ -1,0 +1,77 @@
+.App-Container {
+  width: 1200px;
+  margin: 20px;
+}
+
+.App-Header {
+  height: 100px;
+  padding: 20px;
+  color: #00BCD4;
+  display: flex
+}
+
+.App-header1 {
+  flex: 4;
+}
+
+.App-count{
+  padding: 10px;
+}
+
+.App-add-list {
+  padding: 20px;
+  flex: 1;
+  text-align: right;
+}
+
+.App-Todolist{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.List-Container{
+  border-style: solid;
+  border-width: 5px;
+  border-color: #00BCD4;
+  flex: left;
+  padding: 20px;
+  margin: 40px;
+  width: 400px;
+}
+
+.List-Header{
+  height: 100px;
+}
+
+.list-title .list-title-edit{
+  display: flex;
+  float: left;
+}
+
+.list-btn{
+  display: flex;
+  float: right;
+}
+
+.Item-List{
+  display: flex;
+}
+
+.item-checked .items{
+  display: flex;
+  float: left;
+}
+
+.item-delete-btn{
+  float: right;
+}
+
+.material-icons{
+  font-size: 14px;
+}
+
+.item-checked {
+  font-style: italic;
+  text-decoration: line-through;
+  text-decoration-color: #AAA;
+}
